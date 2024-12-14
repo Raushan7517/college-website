@@ -1,0 +1,130 @@
+/********** Common CSS Starts **********/  
+* {
+     margin:0px;
+     padding:0px;
+}
+ html, body {
+     font-family Roboto, sans-serif, arial;
+     font-size: 14px;
+     color: #242424;
+}
+ .container {
+     width: 1200px;
+     margin:0px auto;
+}
+ .main-section {
+     width: 100%;
+     float: left;
+     padding:50px 0px 40px 0px;
+}
+ .heading {
+     font-size: 22px;
+     font-weight: 500;
+     border-bottom: 1px solid #ff5722;
+     margin-bottom:25px;
+     color: #ff5722;
+}
+/********** Common CSS Ends **********/
+
+/********** Logo CSS Starts **********/  
+.logo {
+     width:100%;
+}
+/********** Logo CSS Ends **********/
+
+/********** Main Menu CSS Starts **********/  
+nav {
+     width: 100%;
+     float: left;
+     background: #ff5722;
+     padding:15px 0px;
+}
+ nav a {
+     color: #fff;
+     text-decoration: none;
+     font-size: 17px;
+     border-right: 1px solid #ffc3c3;
+     padding:2px 20px;
+}
+/********** Main Menu CSS Ends **********/
+/********** Slider CSS Starts **********/  
+.slider img {
+     width:100%;
+}
+/********** Slider CSS Ends **********/
+
+/********** News, Event, Notice Board CSS Starts **********/  
+.event {
+     width: 31%;
+     margin-right: 1%;
+     float: left;
+}
+ .event div {
+     padding:10px;
+     background-color: #f0f3fa;
+}
+ .event ul li {
+     margin-bottom: 20px;
+     width: 100%;
+     float: left;
+}
+/********** News, Event, Notice Board CSS Ends **********/
+
+<!---------- About Us HTML Starts --------->
+<div class="main-section about-us">
+   <img src="images/principal.jpg" >
+   <div>
+      <h2 class="heading">About Our Principal</h2>
+      <p> रामलाल आनंद महाविद्यालय आप सभी का स्वागत करता है। राम लाल आनंद महाविद्यालय की स्थापना के समय उद्देश्य था कि नए बनते हुए भारत के युवाओं को उच्च शिक्षा के माध्यम से राष्ट्र निर्माण के लिए तैयार करना। मुझे खुशी है कि महाविद्यालय स्थापना से लेकर आज तक अपने लक्ष्य और प्रयासों में सफल रहा है। हमारे विद्यार्थी राजनीति, शिक्षा, उद्योग, व्यापार और शोध के विविध क्षेत्रों में उत्कृष्ट कार्य कर रहे हैं। यह भी सच है कि आज इक्कीसवीं सदी के ग्लोबल समय की चुनौतियां वही नहीं है जो स्थापना के समय थीं। आज सूचना प्रौद्योगिकी और वैश्वीकरण के कारण युवाओं के समक्ष चुनौतियां बहुत अधिक बढ़ गईं हैं परंतु मुझे यह बताने में बेहद खुशी है कि रामलाल आनंद महाविद्यालय इस राष्ट्रीय चुनौती के लिए पूरी तरह से तैयार है। हमने प्रयास किया है महाविद्यालय की ढांचागत सुविधाओं को निरंतर बढ़ाया जाए, जिसका प्रमाण है पूर्ण रूप से वातानुकूलित सूचना प्रौद्योगिकी से सम्पन्न, समृद्ध पुस्तकालय, आधुनिक सुविधाओं व उपकरणों से सुसज्जित लैब, कक्षाएं और स्टूडियो। इन सभी का लाभ हमारे विद्यार्थी उठा रहे हैं।
+
+किसी विद्वान ने कहा था कि यदि किसी देश की तरक्की को मापना हो तो उस देश की स्त्रियों की तरक्की से मापना चाहिए इसीलिए हमने स्त्री सशक्तीकरण को अपना ध्येय घोषित किया है। समानता, आत्मनिर्भरता और स्वतंत्रता के आदर्शों को अपनाते हुए शिक्षा और ज्ञान के माध्यम से हम यह कार्य कर रहे है। तार्किकता, वैज्ञानिक चेतना, सामाजिक समरसता और पर्यावरण संरक्षण के लक्ष्यों से संचालित महाविद्यालय के सभी शिक्षक विद्यार्थियों को भविष्य की चुनौतियों और वर्त्तमान की जिम्मेदारियों के लिए तैयार करते हैं। रामलाल आनंद महाविद्यालय में आप सभी को एक ऐसा वातावरण उपलब्ध कराया जाएगा कि विद्यार्थी स्वयं को निरंतर निखार सकें। मैं आशा करता हूँ कि उच्च शिक्षा के इन तीन वर्षां में आप प्रतिभा, ज्ञान, अनुशासन, प्रयोग और नवाचार की ऐसी यात्रा को पूरा करेंगे जो आपके जीवन को सफलता और सार्थकता के शिखरों पर लेकर जाएगी।
+
+<br><br><bold>Best Wishes
+<br>Prof. Rakesh Kumar Gupta
+<br>Principal</bold></p>
+      <img src="images/sign.png">
+   </div>
+</div>
+<!---------- About Us HTML Ends --------->
+
+/********** Gallery CSS Starts **********/  
+.gallery img {
+     width: 24%;
+}
+/********** Gallery CSS Ends **********/
+
+/********** Footer CSS Starts **********/  
+.footer {
+     background-color:#1f2836;
+     padding:70px 0px;
+     width:100%;
+     float:left;
+}
+ .footer-sect {
+     width:33%;
+     float:left;
+}
+ .footer-sect h2 {
+     color:#fff;
+     margin-bottom: 20px;
+}
+ .footer-sect p {
+     color: #fff;
+     line-height: 22px;
+     padding:0px 30px 20px 0px;
+}
+ .footer-menu li {
+     width: 50%;
+     float: left;
+     margin-bottom: 10px;
+}
+ .footer-menu li a {
+     color:#fff;
+     text-decoration: none;
+}
+ .footer-contact li {
+     margin-bottom:15px;
+     list-style: none;
+     color: #fff;
+}
+/********** Footer CSS Ends **********/
